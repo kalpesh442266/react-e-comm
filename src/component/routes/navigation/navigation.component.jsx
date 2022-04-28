@@ -15,13 +15,10 @@ function Navigation() {
                     <Link className='nav-link' to={'/shop'}>
                         SHOP
                     </Link>
-                    <Link className='nav-link' to={'/signIn'}>
+                    <Link className='auth' to={'/auth'}>
                         SIGN IN
                     </Link>
                 </div>
-                    
-
-
             </div>
             <Outlet />
         </Fragment>
